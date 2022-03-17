@@ -4,11 +4,11 @@
 /**
  * print_alphabet - Print alphabet in lowercase
  *
- * Description: function print_alphabet, in lowercase
+ * Description: print 10 times
  *
- * Return: void (Success)
+ * Return: 0 (Success)
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char i;
 
