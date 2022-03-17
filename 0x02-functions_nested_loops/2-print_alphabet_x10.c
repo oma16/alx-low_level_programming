@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - Print alphabet in lowercase
+ * print_alphabet_x10 - Print alphabet in lowercase
  *
  * Description: print 10 times
  *
@@ -14,13 +14,13 @@ void print_alphabet_x10(void)
 
 	for (i = 0; i <= 10; i++)
 	{
-		_putchar(i);
 		char alpha;
 
 		for (alpha = 'a'; alpha <= 'z'; alpha++)
 		{
 			_putchar (alpha);
 		}
+		_putchar(i);
 	}
 	_putchar ('\n');
 }
